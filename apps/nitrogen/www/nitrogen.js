@@ -129,12 +129,8 @@ NitrogenClass.prototype.$do_event = function(validationGroup, eventContext, extr
         this.$event_is_running = false;
         return;
     }
-<<<<<<< HEAD:apps/nitrogen/www/nitrogen.js
-    // Assemble other parameters... 
-=======
 
     // Assemble other parameters...
->>>>>>> 9910b2b30dad99c1c0f0de8217633d606e62f15f:apps/nitrogen/www/nitrogen.js
     var params = jQuery.extend({}, n.$params, validationParams, { eventContext: eventContext });
     
     jQuery.ajax({ 
