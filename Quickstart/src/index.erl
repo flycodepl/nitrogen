@@ -35,14 +35,17 @@ top_right() ->
         #p { class="section_title", body="DOWNLOAD NITROGEN 2.x" },
         #p { class="section", body=[
             #link { url="/downloads", body=#image { image="/images/downloads/mac_logo.png" }},
+	    #link { url="/downloads", body=#image { image="/images/downloads/windows_logo.png" }},
             #link { url="/downloads", body=#image { image="/images/downloads/linux_logo_gray.png" }},
-	    #link { url="/downloads", body=#image { image="/images/downloads/windows_logo_gray.png" }},
 	    #link { url="/downloads", body=#image { image="/images/downloads/erlang_logo.png" }}
         ]},
 
         #p { class="section_title", body="LATEST NEWS" },
         #p { class="section", body=[
             "
+            Learn how to develop a Nitrogen application<br>
+            with the <b><a href='/doc/tutorial.html'>Nitrogen Tutorial &raquo;</a></b>
+            <p>
             Nitrogen 2.x adds great new elements, actions, and API
             calls, as well as improved packaging and OTP
             compliance. 
