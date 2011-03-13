@@ -1,5 +1,24 @@
 # Nitrogen 2.x
 
+## Nitrogen 2.1.0
+
+* Split dependent projects into separate .git repos, including nitrogen_core, nprocreg, and simple_bridge
+* Move Nitrogen project (plus sub-apps) to github.com/nitrogen
+* Remove ./apps directory.
+* Update sample project (built using 'make rel_*') to start up using a first-class Erlang application.
+* Add new sync project dependency, allowing for automatic code reloading.
+
+## Nitrogen 2.0.4
+
+* Implement wf:flash(FlashID, Elements) so that flash notice can
+  be manipulated/closed/etc.
+* Add support for running Nitrogen underneath Webmachine. This makes
+  it easier to run Nitrogen and Webmachine side-by-side, and allows
+  the use of Webmachine dispatch table to route requests to Nitrogen.
+* Add ability to generate Nitrogen-Webmachine packages.
+* Update Mochiweb dependency to 1.5.0.
+* Update Yaws dependency to 1.89.
+
 ## Nitrogen 2.0.3
 
 * Implement callbacks to chain Ajax effects (Jonas Ådahl)
